@@ -1,0 +1,7 @@
+development: &common
+  app_name: "App Services"
+  base_currency: "EUR"
+
+test: 
+  <<: *common
+  environment: 'test'
